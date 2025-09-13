@@ -63,38 +63,29 @@
                 <div class="col-lg-6">
                     <div class="form-main">
                         <form action="https://formsubmit.co/aravindg720@gmail.com" method="POST">
-                            <input type="text" name="_honey" id="" style="display: none;">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value=" https://aravindg720-max.github.io/personal-website1/">
+                            <div class="form-row">
+                                <input type="text" name="_honey" id="" style="display: none;">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_next" value="https://aravindg720-max.github.io/personal-website1/">
 
-                            <table>
-                                <div class="form-section-one">
-                                    <tr>
-                                        <th><label for="Fname">First Name</label><br></th>
-                                        <th><label for="Lname">Last Name</label></th>
-                                    </tr>
-                                    <tr>
-                                        <td><input type="text" name="First Name:" id="Fname" class="common-field-size" required></td>
-                                        <td><input type="text" name="Last Name:" id="Lname" class="common-field-size"></td>
-                                    </tr>
-                                 </div>
-                                 <div class="form-section-two">
-                                    <tr>
-                                        <th><label for="email">Email</label><br></th>
-                                        <th><label for="Subject">Subject</label></th>
-                                    </tr>
-                                    <tr>
-                                        <td><input type="email" name="email" id="email" class="common-field-size" required></td>
-                                        <td><input type="text" name="" id="Subject" class="common-field-size"></td>
-                                    </tr>
-                                    
-                                 </div>
-                            </table>
-                            <p>Message</p>
-                            <label for="">Hello</label>
-                            <textarea name="textarea" id="tecxt"></textarea>
-                               <a href="index.html"> <button class="button-send">Send</button></a>
-
+                                <div class="form-group col-md-6">
+                                    <label for="Namefor">Name</label>
+                                    <input type="text" class="form-control common-field-size" id="Namefor" name="Name:" placeholder="Your Name" style="width: 28em;" required >
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="email" class="form-control common-field-size" id="inputEmail" placeholder="Your EMail" style="width: 28em;" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputsub">Subject</label>
+                                <input type="text" class="form-control common-field-size" id="inputsub" placeholder="Subject" style="width: 28em;">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Message</label>
+                                <textarea name="" id="" cols="8" rows="2" placeholder="Messeage" required></textarea>
+                            </div>
+                            <button type="submit" class="button-send">Send</button>
                         </form>
                         
                     </div>
